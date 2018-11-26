@@ -1,0 +1,62 @@
+<comment>
+problem = kelvin
+config  = --with-gas=hydro --with-problem=kelvin --with-flux=hllc 
+
+<job>
+problem_id      = kh      # problem ID: basename of output filenames
+maxout          = 3       # Output blocks number from 1 -> maxout
+num_domains     = 1       # number of Domains in Mesh
+
+<output1>
+out_fmt = hst               # History data dump
+dt      = 0.05              # time increment between outputs
+
+<output2>
+out     = prim              # primitive variable dump
+out_fmt = tab               
+dt      = 1.0               # time increment between outputs
+
+<output3>
+out_fmt = ppm               # picture format
+dt      = 0.05               
+type    = slice 
+out     = d
+id      = d
+dmin    = 0.9               # minimum density in color table mapping 
+dmax    = 2.1               # maximum density in color table mapping
+palette = rainbow
+
+
+<time>
+cour_no         = 0.4       # The Courant, Friedrichs, & Lewy (CFL) Number
+nlim            = 40000     # cycle limit
+tlim            = 3.0      # time limit
+
+<domain1>
+level           = 0         # refinement level this Domain (root=0)
+
+Nx1             = 64        # Number of zones in X-direction
+x1min           = 0.0       # minimum value of X
+x1max           = 1.0       # maximum value of X
+bc_ix1          = 4         # inner-I (X) boundary flag  (4=periodic)
+bc_ox1          = 4         # outer-I (X) boundary flag
+
+Nx2             = 64        # Number of zones in Y-direction
+x2min           = 0.0       # minimum value of Y
+x2max           = 1.0       # maximum value of Y
+bc_ix2          = 1         # inner-I (Y) boundary flag  (1=reflecting)
+bc_ox2          = 1         # outer-I (Y) boundary flag
+
+Nx3             = 1         # Number of zones in X3-direction
+x3min           = 0.0       # minimum value of X3
+x3max           = 1.0       # maximum value of X3
+
+<problem>
+gamma           = 1.66667   # gamma = C_p/C_v
+pressure        = 1.0       # pressure
+density1        = 1.0       # density upper half
+density2        = 2.0       # density lower half
+vx1             = 0.3       # velocity of top half
+vx2             = -0.3      # velocity of lower half
+ampl            = 0.05      # ampliture of perturbation
+ 

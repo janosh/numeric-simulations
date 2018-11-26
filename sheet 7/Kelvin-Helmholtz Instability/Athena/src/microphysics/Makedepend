@@ -1,0 +1,67 @@
+conduction.o: conduction.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h
+diff_dt.o: diff_dt.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../reconstruction/prototypes.h ../reconstruction/../copyright.h \
+  ../reconstruction/../config.h ../rsolvers/prototypes.h \
+  ../rsolvers/../copyright.h ../rsolvers/../config.h
+cool.o: cool.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../reconstruction/prototypes.h ../reconstruction/../copyright.h \
+  ../reconstruction/../config.h ../rsolvers/prototypes.h \
+  ../rsolvers/../copyright.h ../rsolvers/../config.h
+integrate_diffusion.o: integrate_diffusion.c ../copyright.h ../defs.h \
+  ../athena.h ../globals.h ../prototypes.h ../config.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../reconstruction/prototypes.h ../reconstruction/../copyright.h \
+  ../reconstruction/../config.h ../rsolvers/prototypes.h \
+  ../rsolvers/../copyright.h ../rsolvers/../config.h
+get_eta.o: get_eta.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../reconstruction/prototypes.h ../reconstruction/../copyright.h \
+  ../reconstruction/../config.h ../rsolvers/prototypes.h \
+  ../rsolvers/../copyright.h ../rsolvers/../config.h
+resistivity.o: resistivity.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h
+viscosity.o: viscosity.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h

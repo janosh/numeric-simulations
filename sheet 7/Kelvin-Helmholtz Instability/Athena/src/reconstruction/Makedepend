@@ -1,0 +1,59 @@
+esystem_prim.o: esystem_prim.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../microphysics/../copyright.h \
+  ../microphysics/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h
+lr_states_dc.o: lr_states_dc.c ../copyright.h ../defs.h ../athena.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../rsolvers/prototypes.h \
+  ../rsolvers/../copyright.h ../rsolvers/../config.h
+lr_states_plm.o: lr_states_plm.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../microphysics/../copyright.h \
+  ../microphysics/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h
+lr_states_ppm.o: lr_states_ppm.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../microphysics/../copyright.h \
+  ../microphysics/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h
+lr_states_prim2.o: lr_states_prim2.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../microphysics/../copyright.h \
+  ../microphysics/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h
+lr_states_prim3.o: lr_states_prim3.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../microphysics/../copyright.h \
+  ../microphysics/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h

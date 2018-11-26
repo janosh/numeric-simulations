@@ -1,0 +1,70 @@
+bvals_particle.o: bvals_particle.c ../copyright.h ../defs.h ../athena.h \
+  ../prototypes.h ../config.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h particle.h ../globals.h
+dump_particle_history.o: dump_particle_history.c ../copyright.h ../defs.h \
+  ../athena.h ../prototypes.h ../config.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h particle.h
+feedback.o: feedback.c ../copyright.h ../defs.h ../athena.h \
+  ../prototypes.h ../config.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h particle.h ../globals.h
+init_particle.o: init_particle.c ../copyright.h ../defs.h ../athena.h \
+  ../prototypes.h ../config.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h particle.h ../globals.h
+integrators_particle.o: integrators_particle.c ../copyright.h ../defs.h \
+  ../athena.h ../prototypes.h ../config.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h particle.h ../globals.h
+output_particle.o: output_particle.c ../copyright.h ../defs.h ../athena.h \
+  ../prototypes.h ../config.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h particle.h ../globals.h
+utils_particle.o: utils_particle.c ../copyright.h ../defs.h ../athena.h \
+  ../prototypes.h ../config.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h \
+  ../rsolvers/prototypes.h ../rsolvers/../copyright.h \
+  ../rsolvers/../config.h particle.h ../globals.h

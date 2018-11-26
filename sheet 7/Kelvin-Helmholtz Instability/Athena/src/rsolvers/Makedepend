@@ -1,0 +1,110 @@
+esystem_roe.o: esystem_roe.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../microphysics/../copyright.h \
+  ../microphysics/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../reconstruction/prototypes.h ../reconstruction/../copyright.h \
+  ../reconstruction/../config.h
+exact.o: exact.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+exact_sr.o: exact_sr.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+force.o: force.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+hllc.o: hllc.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+hlld.o: hlld.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+hllc_sr.o: hllc_sr.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+hlle_sr.o: hlle_sr.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+hlld_sr.o: hlld_sr.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+hlle.o: hlle.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h
+roe.o: roe.c ../copyright.h ../defs.h ../athena.h ../globals.h \
+  prototypes.h ../config.h ../prototypes.h ../gravity/prototypes.h \
+  ../gravity/../copyright.h ../gravity/../config.h \
+  ../integrators/prototypes.h ../integrators/../copyright.h \
+  ../integrators/../config.h ../microphysics/prototypes.h \
+  ../microphysics/../copyright.h ../microphysics/../config.h \
+  ../particles/prototypes.h ../particles/../copyright.h \
+  ../particles/../config.h ../reconstruction/prototypes.h \
+  ../reconstruction/../copyright.h ../reconstruction/../config.h hlle.c
+two_shock.o: two_shock.c ../copyright.h ../defs.h ../athena.h \
+  ../globals.h prototypes.h ../config.h ../prototypes.h \
+  ../gravity/prototypes.h ../gravity/../copyright.h \
+  ../gravity/../config.h ../integrators/prototypes.h \
+  ../integrators/../copyright.h ../integrators/../config.h \
+  ../microphysics/prototypes.h ../microphysics/../copyright.h \
+  ../microphysics/../config.h ../particles/prototypes.h \
+  ../particles/../copyright.h ../particles/../config.h \
+  ../reconstruction/prototypes.h ../reconstruction/../copyright.h \
+  ../reconstruction/../config.h
